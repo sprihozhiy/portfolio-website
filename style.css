@@ -308,6 +308,10 @@ footer .contact-info > * {
 /*Media */
 
 @media screen and (max-width: 992px) {
+  header .intro {
+    flex-direction: row;
+  }
+
   header nav {
     background-color: red;
   }
@@ -321,6 +325,10 @@ footer .contact-info > * {
   }
   header {
     /* height: 100vh; */
+  }
+
+  .codingImg {
+    display: none;
   }
 
   /* .techstack div {
