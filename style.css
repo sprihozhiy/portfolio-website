@@ -83,25 +83,11 @@ header nav ul li a:hover {
   background-color: #000015;
   display: flex;
   margin: 5em 0;
-}
-
-.intro-right,
-.intro-left {
-  display: flex;
-  padding: 2em 10em;
-}
-
-.intro-left {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  flex-grow: 2;
+  padding: 2em 3em;
 }
-
-.intro-right {
-  flex-grow: 1;
-}
-
 .intro h1 {
   font-family: "Tomorrow", sans-serif;
   font-size: 3rem;
@@ -313,7 +299,7 @@ footer .contact-info > * {
   }
 
   header nav {
-    background-color: red;
+    /* background-color: red; */
   }
 
   .intro-left {
@@ -337,6 +323,19 @@ footer .contact-info > * {
 
   .project-items {
     flex-direction: column;
+  }
+
+  .contact-form {
+    width: 90%;
+  }
+
+  .contact-form label {
+    width: 25%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 70%;
   }
 }
 
