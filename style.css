@@ -168,17 +168,12 @@ main > * {
   padding: 1.2rem 0;
 }
 
-.techstack {
-  display: flex;
-  flex-direction: column;
-}
-
-.techstack div {
+main > div {
   display: flex;
   justify-content: center;
 }
 
-.techstack div span {
+main > div span {
   display: inline-block;
   margin-right: 1rem;
   font-size: 1.3rem;
@@ -187,11 +182,11 @@ main > * {
   padding: 0 1rem 0 0;
 }
 
-.techstack div span:last-of-type {
+main > div span:last-of-type {
   border-right: none;
 }
 
-.techstack div span svg {
+main > div span svg {
   color: white;
 }
 /* .projects {
@@ -260,7 +255,6 @@ footer {
 
 footer .socials a,
 footer .contact-info {
-  font-size: 24px;
   color: #fff;
 }
 
@@ -275,7 +269,7 @@ footer .contact-info:hover {
 }
 
 footer .socials a {
-  margin: 0 0.8rem;
+  margin: 0 0.3em;
 }
 
 footer .contact-info > * {
@@ -298,6 +292,10 @@ footer .contact-info > * {
 /*Media */
 
 @media screen and (max-width: 992px) {
+  header {
+    height: auto;
+  }
+
   header .intro {
     flex-direction: row;
   }
@@ -324,6 +322,7 @@ footer .contact-info > * {
 
   .contact-form label {
     width: 25%;
+    font-size: 1rem;
   }
 
   .contact-form input,
