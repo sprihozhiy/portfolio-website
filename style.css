@@ -35,7 +35,6 @@ body {
   color: #04fbff;
   font-family: "Montserrat", sans-serif;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
 }
 
