@@ -173,7 +173,7 @@ main > div {
   justify-content: center;
 }
 
-main > div span {
+.techstack div span {
   display: inline-block;
   margin: 0.3rem;
   font-size: 1.3rem;
@@ -181,11 +181,11 @@ main > div span {
   padding: 0 1rem 0 0;
 }
 
-main > div span:last-of-type {
+.techstack div span:last-of-type {
   border-right: none;
 }
 
-main > div span svg {
+.techstack div span svg {
   color: white;
 }
 /* .projects {
@@ -195,6 +195,8 @@ main > div span svg {
 
 .project-items {
   display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
 }
 
 .project-items > div {
@@ -205,41 +207,9 @@ main > div span svg {
   margin: 10px 0;
 }
 
-/*Contact Form*/
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #04fbff;
-  width: 80vw;
-  align-self: center;
-  margin: 1.5rem 0;
-  padding: 1rem;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 45%;
-  margin: 1rem 0;
-  padding: 0.3rem 0.8rem;
-  background-color: #000015;
-  color: #fff;
-  border: 1px solid #000015;
-}
-
-.contact-form label {
-  font-size: 1.2rem;
-  padding-right: 1rem;
-  width: 15%;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  border: #fff 1px solid;
-}
-
-.contact-form button {
-  background: none;
+.project-items div > img {
+  width: 250px;
+  height: auto;
 }
 
 /* Footer */
