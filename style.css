@@ -93,6 +93,7 @@ header nav ul li a:hover {
   text-shadow: 2px 2px #04fbff50;
   letter-spacing: 1px;
   text-transform: capitalize;
+  margin-bottom: 1em;
 }
 
 .intro h3 {
@@ -263,7 +264,12 @@ footer .contact-info > * {
   header {
     height: auto;
   }
-
+  .intro {
+    margin: 2em 0;
+  }
+  .intro h1 {
+    margin-bottom: 0;
+  }
   header .intro {
     flex-direction: row;
   }
