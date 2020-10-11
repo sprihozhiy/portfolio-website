@@ -24,12 +24,6 @@ textarea {
   outline: none;
 }
 
-/* input:focus {
-  outline: 0;
-} */
-
-/*-------------------*/
-
 body {
   background-color: #000026;
   color: #04fbff;
@@ -174,6 +168,10 @@ main > div {
   justify-content: center;
 }
 
+main > section > h2 {
+  padding-bottom: 0.4em;
+}
+
 .techstack div span {
   display: inline-block;
   margin: 0.3rem;
@@ -189,19 +187,37 @@ main > div {
 .techstack div span svg {
   color: white;
 }
-/* .projects {
+
+.aboutme {
   display: flex;
   flex-direction: column;
-} */
+  padding: 0.5em 0;
+}
+
+.aboutme img {
+  height: 20rem;
+  filter: grayscale(30%);
+  display: inline-block;
+  float: left;
+  padding: 1em;
+}
+
+.aboutme p {
+  color: #fff;
+  text-align: justify;
+  line-height: 1.5em;
+  padding: 0 1.2em;
+  margin: 0.5em;
+}
 
 .project-items {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-evenly;
 }
 
 .project-items > div {
   padding: 30px 10px;
+  width: 25%;
 }
 
 .project-items div > * {
@@ -211,6 +227,11 @@ main > div {
 .project-items div > img {
   width: 250px;
   height: auto;
+  filter: grayscale(30%);
+}
+
+.project-items p {
+  color: #fff;
 }
 
 /* Footer */
@@ -282,8 +303,16 @@ footer .contact-info > * {
     display: none;
   }
 
+  .aboutme img {
+    float: none;
+  }
+
   .project-items {
     flex-direction: column;
+  }
+
+  .project-items > div {
+    width: auto;
   }
 
   .contact-form {
