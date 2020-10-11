@@ -49,6 +49,24 @@ header {
   padding: 10px 5px;
 }
 
+header .stripe {
+  width: 245px;
+  height: 50px;
+  background-color: #f00;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 40px;
+  left: -60px;
+  display: flex;
+  justify-content: center;
+}
+
+header .stripe p {
+  align-self: center;
+  color: #fff;
+  font-weight: bold;
+}
+
 header nav ul {
   display: flex;
   justify-content: center;
@@ -285,6 +303,15 @@ footer .contact-info > * {
   header {
     height: auto;
   }
+
+  header .stripe {
+    display: none;
+  }
+
+  header .stripe > * {
+    display: none;
+  }
+
   .intro {
     margin: 2em 0;
   }
