@@ -192,6 +192,7 @@ main > section > h2 {
 
 .techstack div span {
   display: inline-block;
+  color: #fff;
   margin: 0.3rem;
   font-size: 1.3rem;
   border-right: 1px solid #fff;
@@ -218,13 +219,14 @@ main > section > h2 {
   display: inline-block;
   float: left;
   padding: 1em;
+  margin: 1em;
 }
 
 .aboutme p {
   color: #fff;
   text-align: justify;
-  line-height: 1.5em;
-  padding: 0 1.2em;
+  line-height: 1.6em;
+  padding: 0 1.5em;
   margin: 0.5em;
 }
 
@@ -248,7 +250,7 @@ main > section > h2 {
   filter: grayscale(30%);
 }
 
-.project-items p {
+.project-items > * {
   color: #fff;
 }
 
